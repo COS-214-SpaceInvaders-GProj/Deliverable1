@@ -6,7 +6,7 @@
 //  Copyright © 2019 COS214. All rights reserved.
 //
 
-#include "FrigateFactory.hpp"
+#include "FrigateFactory.h"
 
 Spaceship * FrigateFactory::buildSpaceship(){
     return new Frigate();

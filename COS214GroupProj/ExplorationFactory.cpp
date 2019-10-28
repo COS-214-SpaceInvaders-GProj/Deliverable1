@@ -6,7 +6,7 @@
 //  Copyright © 2019 COS214. All rights reserved.
 //
 
-#include "ExplorationFactory.hpp"
+#include "ExplorationFactory.h"
 
 Spaceship * ExplorationFactory::buildSpaceship(){
     return new ExplorationVessel();

@@ -1,12 +1,4 @@
-//
-//  ExplorationVessel.cpp
-//  COS214GroupProj
-//
-//  Created by Admin on 2019/09/26.
-//  Copyright © 2019 COS214. All rights reserved.
-//
-
-#include "ExplorationVessel.hpp"
+#include "ExplorationVessel.h"
 
 void ExplorationVessel::SpaceshipDescr(){
     cout << "FighterTransporter description: " << endl;
@@ -15,4 +7,7 @@ void ExplorationVessel::SpaceshipDescr(){
     cout << "Max Speed = " << getMaxSpeed() << " km/h" << endl;
     cout << "Stall Speed = " << getStallSpeed() << " km/h" << endl;
     cout << "Thust = " << getThrust() << endl;
+    cout<<"bridge of this particular spaceship has "<<getBridge()<<" level of fancy "<<endl;
+    cout<<"Sleeping Quarters of this particular spaceship has "<<getSleepingQuarters()<<" level of fancy "<<endl;
+    cout<<"Sick Bay of this particular spaceship has "<<getSickBay()<<" level of fancy "<<endl;
 }

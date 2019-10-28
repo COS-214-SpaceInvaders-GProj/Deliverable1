@@ -6,7 +6,7 @@
 //  Copyright © 2019 COS214. All rights reserved.
 //
 
-#include "BattleshipFactory.hpp"
+#include "BattleshipFactory.h"
 
 Spaceship * BattleshipFactory::buildSpaceship(){
     return new Battleship();

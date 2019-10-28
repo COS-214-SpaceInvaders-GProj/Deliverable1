@@ -6,7 +6,7 @@
 //  Copyright © 2019 COS214. All rights reserved.
 //
 
-#include "FighterFactory.hpp"
+#include "FighterFactory.h"
 
 Spaceship * FighterFactory::buildSpaceship(){
     return new FighterTransporter();
